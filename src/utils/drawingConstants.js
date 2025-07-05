@@ -1,0 +1,20 @@
+export const DRAWING_CONFIG = {
+  EXTENSION_LENGTH: 20,
+  ARROW_LENGTH: 10,
+  DIMENSION_OFFSET: 40,
+  FONT_SIZE: 12,
+  POINT_RADIUS: 5,
+  VERTICAL_THRESHOLD: 1,
+  LINE_WIDTH: {
+    SEGMENT: 3,
+    DIMENSION: 1,
+    EXTENSION: 1,
+  },
+  COLORS: {
+    SEGMENT_1: '#2563eb', // Blue
+    SEGMENT_2: '#dc2626', // Red
+    DIMENSION: '#FFFFFF',
+    POINT: '#dc2626',
+    TEXT: '#FFFFFF',
+  },
+};
